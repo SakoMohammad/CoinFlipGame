@@ -13,6 +13,7 @@ worksheetSave = workbook['Save']
 a = random.choice([1, 2])
 print(a)
 
-#save function
+#save function saves game progress into its own sheet
 def save():
+
   
