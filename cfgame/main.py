@@ -7,13 +7,13 @@ workbook = load_workbook('cfgame.xlsx')
 #worksheet
 worksheetSave = workbook['Save']
 
-
+choice = input()
 
 #random choice function
-a = random.choice([1, 2])
-print(a)
+flipCoin = random.choice(["heads", "tails"])
+print(flipCoin)
 
-#save function saves game progress into its own sheet
-def save():
-
-  
+if choice == flipCoin:
+    print('You were right')
+else:
+    print('you were wrong, it was tails')
